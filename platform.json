@@ -14,6 +14,7 @@
   },
   "version": "1.0.0",
   "packageRepositories": [
+     "http://dl.platformio.org/packages/manifest.json",	  
      "https://raw.githubusercontent.com/FedePinna/Platform-DuinoBot/master/manifest.json"
   ],
   "frameworks": {
