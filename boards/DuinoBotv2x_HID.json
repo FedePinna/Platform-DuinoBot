@@ -1,0 +1,22 @@
+{
+  "build": {
+    "extra_flags": "-DARDUINO=150",
+    "core": "DuinoBot.v2.x_1.02",
+    "f_cpu": "16000000L",
+    "mcu": "atmega1284p",
+    "variant": "duinobot.v2.x"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "DuinoBotv2x_HID (ATmega1284p@16M,5V)",
+  "upload": {
+    "maximum_ram_size": 16384,
+    "maximum_size": 130048,
+    "protocol": "arduino",
+	"usb_vid":"0x2842",
+	"usb_pid":"0x0001"
+  },
+  "url": "http://multiplo.org/",
+  "vendor": "Multiplo"
+}

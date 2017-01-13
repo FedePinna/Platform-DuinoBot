@@ -1,0 +1,41 @@
+{
+  "name": "duinobot",
+  "title": "DuinoBot AVR",
+  "description": "DuinoBot AVR based in Atmel AVR 8 MCUs",
+  "url": "http://www.atmel.com/products/microcontrollers/avr/default.aspx",
+  "homepage": "",
+  "license": "Apache-2.0",
+  "engines": {
+    "platformio": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FedePinna/Platform-Duinobot.git"
+  },
+  "version": "1.0.0",
+  "packageRepositories": [
+     "https://raw.githubusercontent.com/FedePinna/Platform-DuinoBot/master/manifest.json"
+  ],
+  "frameworks": {
+    "arduino": {
+      "package": "framework-arduinomultiplo",
+      "script": "builder/frameworks/arduino.py"
+    }
+  },
+  "packages": {
+    "toolchain-duinobot": {
+      "type": "toolchain",
+      "version": "~1.0.0"
+    },
+    "framework-arduinomultiplo": {
+      "type": "framework",
+      "optional": true,
+      "version": "~1.0.0"
+    },
+	"tool-duinobothid": {
+      "type": "uploader",
+      "optional": true,
+      "version": "~1.0.0"
+    }
+  }
+}

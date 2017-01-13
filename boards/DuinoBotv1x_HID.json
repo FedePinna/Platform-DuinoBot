@@ -1,0 +1,20 @@
+{
+  "build": {
+    "extra_flags": "-DARDUINO=150",
+    "core": "DuinoBot.v1.x.HID_0022",
+    "f_cpu": "16000000L",
+    "mcu": "atmega32u4",
+    "variant": "duinobot.v1.x.HID"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "DuinoBotv1x_HID (ATmega32U4@16M,5V)",
+  "upload": {
+    "maximum_ram_size": 2560,
+    "maximum_size": 28670,
+    "protocol": "avr109"
+  },
+  "url": "http://multiplo.org/",
+  "vendor": "Multiplo"
+}
