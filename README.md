@@ -9,18 +9,18 @@ Pasos para instalar la Plataforma DuinoBot en PlatformIO IDE
 * Instalar la Plataforma de desarrollo DuinoBot.
 ```bash
   # instalar la ultima versión estable
-  >platformio platform install https://github.com/FedePinna/Platform-DuinoBot/archive/v1.0.0.zip
+  >platformio platform install https://github.com/fpinna13/Platform-DuinoBot/archive/v1.0.0.zip
 
   # instalar la versión de desarrollo
-  >platformio platform install https://github.com/FedePinna/Platform-DuinoBot.git
+  >platformio platform install https://github.com/fpinna13/Platform-DuinoBot.git
 ```
 * Instalar Clang(Autocompletado de código inteligente), descargar la última versión de [Clang](http://releases.llvm.org/download.html).
 
-Para probar la Plataforma Duinobot descargue el [ejemplo](https://github.com/FedePinna/Platform-DuinoBot/releases/download/v1.0.0/multiplo-blink.zip).
+Para probar la Plataforma Duinobot descargue el [ejemplo](https://github.com/fpinna13/Platform-DuinoBot/releases/download/v1.0.0/multiplo-blink.zip).
 Una vez iniciado PlatformIO IDE ir a:
   * Menu: Platformio > Open Project folder...
   * Seleccionar la carpeta que contiene el proyecto.
   * Compilar y Subir.
   
 IMPORTANTE! vx.x.x.zip corresponde a la versión de la platforma, compruebe que instale la [última versión]
-(https://github.com/FedePinna/Platform-DuinoBot/releases/latest).
+(https://github.com/fpinna13/Platform-DuinoBot/releases/latest).
