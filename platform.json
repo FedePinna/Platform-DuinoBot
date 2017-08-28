@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/FedePinna/Platform-Duinobot.git"
+    "url": "https://github.com/fpinna13/Platform-Duinobot.git"
   },
   "version": "1.0.0",
   "packageRepositories": [
      "http://dl.platformio.org/packages/manifest.json",	  
-     "https://raw.githubusercontent.com/FedePinna/Platform-DuinoBot/master/manifest.json"
+     "https://raw.githubusercontent.com/fpinna13/Platform-DuinoBot/master/manifest.json"
   ],
   "frameworks": {
     "arduino": {
