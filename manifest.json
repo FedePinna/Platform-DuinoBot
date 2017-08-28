@@ -1,21 +1,21 @@
 {
   "framework-arduinomultiplo":[
   {
-	  "url": "https://github.com/FedePinna/Framework-arduinomultiplo/archive/v1.0.0.zip",
+	  "url": "https://github.com/fpinna13/Framework-arduinomultiplo/archive/v1.0.0.zip",
 	  "version": "1.0.0",
 	  "system": "all"
   }
   ],
   "tool-duinobothid": [
 	{
-	  "url": "https://github.com/FedePinna/Framework-arduinomultiplo/releases/download/v1.0.0/tool-duinobothid-1.0.0.zip",
+	  "url": "https://github.com/fpinna13/Framework-arduinomultiplo/releases/download/v1.0.0/tool-duinobothid-1.0.0.zip",
 	  "version": "1.0.0",
 	  "system": "*"
 	}
   ],
   "toolchain-duinobot": [
 	{
-	  "url": "https://github.com/FedePinna/Framework-arduinomultiplo/releases/download/v1.0.0/toolchain-duinobot-1.0.0.zip",
+	  "url": "https://github.com/fpinna13/Framework-arduinomultiplo/releases/download/v1.0.0/toolchain-duinobot-1.0.0.zip",
 	  "version": "1.0.0",
 	  "system": "*"
 	}
